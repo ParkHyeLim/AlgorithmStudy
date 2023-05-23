@@ -4,7 +4,7 @@
 
 N, k = map(int, input().split())
 
-score = [int(i) for i in input().split() ]
+score = [int(i) for i in input().split()]
 score.sort(reverse=True)
 
 cutLine = score[k-1]
